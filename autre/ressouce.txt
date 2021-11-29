@@ -1,0 +1,4 @@
+ressources :
+
+https://www.onisep.fr/Choisir-mes-etudes/Apres-le-bac/Organisation-des-etudes-superieures/Les-BUT-bachelors-universitaires-de-technologie
+https://www.cidj.com/etudes-formations-alternance/les-diplomes/but-informatique
