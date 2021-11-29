@@ -1,0 +1,56 @@
+div
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;  
+    padding: 3%;
+}
+
+
+#article
+{
+    padding: 0;
+}
+
+#article > ul > li 
+{
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+a > img
+{
+    width: 30%;
+}
+
+/* Partie Responsive */
+
+@media (max-width: 701px)
+{
+    div 
+    {
+        grid-template-columns: 1fr 2fr 1fr;
+        padding: 7%;
+    }
+
+    #article
+    {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    li
+    {
+        display: inline;
+    }
+    a>img
+    {
+        width: 20%;
+        height: auto;   
+    }
+
+    #contenu
+    {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+}

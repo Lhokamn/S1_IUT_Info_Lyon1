@@ -1,0 +1,199 @@
+/* Partie div */
+
+div
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    padding: 3%;
+}
+
+#localisation
+{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+iframe
+{
+    width: 70%;
+    height: 15em;
+}
+
+#cours
+{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#horaire
+{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#cours > img
+{
+    width: 60%;
+}
+
+
+/* Partie tableau */
+
+table
+{
+    padding: 0;
+    border-collapse: collapse;    
+    border-style: solid;
+    width: auto;
+    height: auto;
+}
+
+
+td
+{
+    border: solid;
+    border-color: rgb(50, 50, 50);
+    width: auto;
+    height: auto;
+}
+
+.math
+{
+   background-color: rgb(181, 181, 230); 
+}
+
+.C
+{
+    background-color: lightgreen;
+}
+
+.BD
+{
+    background-color:burlywood;
+}
+
+.sys
+{
+    background-color: lightblue;
+}
+
+.web
+{
+    background-color: yellowgreen;
+}
+
+.algo
+{
+    background-color: red;
+}
+
+.archi
+{
+    background-color: turquoise;
+}
+
+.eco
+{
+    background-color: rgb(197, 67, 197);
+}
+
+.com
+{
+    background-color: orange;
+}
+
+.anglais
+{
+    background-color: rgb(157, 255, 139);
+}
+
+
+/* Partie Responsive */
+
+@media (max-width: 701px)
+{
+    div
+    {
+        grid-template-rows: 33% 33% 33%;
+        grid-template-columns: 30% 70%;
+        padding: 10%;
+        padding-left: 0;
+        padding-right: 3%;
+    }
+
+    .tableau_nav
+    {
+        width: 90%;
+        height: 9%;
+        padding-left: 0;
+        
+        position: sticky;
+        top : 3em;
+        left: 1em;
+        text-align: left;
+    }
+
+    ul
+    {
+        padding-left: 0;
+        font-size: 1em;
+    }
+
+    li
+    {
+        padding-left: 0;
+        background-color: cornsilk;
+    }
+
+    .tableau_nav > ul > li
+    {
+        background-color: rgb(12, 12, 141);
+    }
+
+    li > a
+    {
+        color: rgb(181, 255, 43);
+    }
+
+
+    #cours
+    {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    #localisation
+    {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;       
+    }
+
+    #horaire_sans_tableau
+    {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    #horaire
+    {
+        display: none;
+    }
+
+    iframe
+    {
+        display: none;
+    }
+}
