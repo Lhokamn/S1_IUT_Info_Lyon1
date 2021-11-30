@@ -1,19 +1,26 @@
 # SAE_WEB_Corentin_VAlentin_G5S1
 
-Adéquation avec la cible :
-La présentation du site semble convenir au plus grand nombre.
-Il fait preuve d'une certaine sobriété tout en étant clair dans son objectif de présentation de l'IUT.
-Originalité-Créativité :
-Site "passe-partout".
-Sa plus grande originalité est son accessibilité ainsi que sa simplicité.
+=======
+Ad�quation avec la cible :
+La pr�sentation du site semble convenir au plus grand nombre. 
+Il fait preuve d'une certaine sobri�t� tout en �tant clair dans son objectif de pr�sentation de l'IUT.
+
+Originalit�-Cr�ativit� :
+Site "passe-partout". 
+Sa plus grande originalit� est son accessibilit� ainsi que sa simplicit�.
 Les informations sont claires et distinctes.
+
 Maquette :
-La version finale du projet est différente de ce qui était prévu à la base.
+La version finale du projet est diff�rente de ce qui �tait pr�vu � la base.
 Les maquettes pour ordinateur ont eu des changements notamment pour les pages "formation" et "information".
-Toutefois une refonte de l'agencement des contenus a été effectuée.
-Les maquettes mobiles ont quand à elles subis un épurage de la présentation dans la version finale à cause de la complexité ainsi que le manque de lisibilité de celles-ci.
+Toutefois une refonte de l'agencement des contenus a �t� effectu�e.
+Les maquettes mobiles ont quand � elles subis un �purage de la pr�sentation dans la version finale � cause de la complexit� ainsi que le manque de lisibilit� de celles-ci.
+
 Responsive :
-Nous avons décidé de retirer le tableau ainsi que la vidéo de la version mobile puisque elle ne rentrait pas dans le format mobile.
-Il y a également eu dans les pages "formation" et "information" la mise en place d'un sommaire permettant une meilleure navigation sur le site.
-Accessibilité :
-Le site a été normalement vérifié pour l'accessibilité en utilisant tous les aria-label.
+Nous avons d�cid� de retirer le tableau ainsi que la vid�o de la version mobile puisque elle ne rentrait pas dans le format mobile.
+Il y a �galement eu dans les pages "formation" et "information" la mise en place d'un sommaire permettant une meilleure navigation sur le site.
+
+Accessibilit� : 
+Le site a �t� normalement v�rifi� pour l'accessibilit� en utilisant tous les aria-label.
+
+>>>>>>> 03611470ed826fcb9d6cc73384cfdba86030bfbe
