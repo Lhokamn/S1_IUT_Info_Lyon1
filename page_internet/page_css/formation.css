@@ -37,6 +37,13 @@ ul
     grid-column-end: -1;
 }
 
+#plaquette img 
+{
+    width: 15em;
+    height: auto;
+    border: black solid;
+}
+
 /* Partie Responsive */
 
 @media (max-width: 701px)
