@@ -26,6 +26,11 @@ a > img
     width: 30%;
 }
 
+#article ul
+{
+    list-style: none;
+}
+
 /* Partie Responsive */
 
 @media (max-width: 701px)
