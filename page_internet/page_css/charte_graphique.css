@@ -80,14 +80,11 @@ section > p
 	padding-left: 2rem;
 }
 
-ul
-{
-	list-style-type: none;
-}
-
 li
 {
-	text-align: center;
+	text-align: left;
+	padding-left: 1rem;
+
 }
 
 a
