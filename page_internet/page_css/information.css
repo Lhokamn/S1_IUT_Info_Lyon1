@@ -145,12 +145,18 @@ td
     {
         padding-left: 0;
         font-size: 1em;
+        margin-left: 0;
     }
 
-    li
+    #horaire_sans_tableau li
     {
         padding-left: 0;
-        background-color: cornsilk;
+        text-align: center;
+    }
+
+    #horaire_sans_tableau ul
+    {
+        margin-left: 0;
     }
 
     .tableau_nav > ul > li

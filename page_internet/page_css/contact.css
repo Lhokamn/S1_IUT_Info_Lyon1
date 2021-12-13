@@ -39,6 +39,11 @@ cite
     color: rgb(14, 63, 170)
 }
 
+ul
+{
+    list-style: none;
+}
+
 /* Partie Responsive */
 
 @media (max-width: 701px)

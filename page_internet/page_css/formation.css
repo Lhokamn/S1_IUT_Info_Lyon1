@@ -78,6 +78,11 @@ ul
         font-size: 1em;
     }
 
+    .tableau_nav ul
+    {
+        margin-left: 0;
+    }
+
     li
     {
         padding-left: 0;

@@ -136,6 +136,16 @@ h4
 	{
 		background-color: rgb(12, 12, 141);
 	}
+
+	ul  
+	{
+		margin-left: 1rem;
+		list-style: none;
+	}
+	.tableau_nav > ul > li
+	{
+		text-align: center;
+	}
 }
 
 @media (min-width:702px)
