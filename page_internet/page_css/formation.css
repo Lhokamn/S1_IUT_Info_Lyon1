@@ -14,7 +14,16 @@ div
     grid-column-end: 3;
 }
 
+ul
+{
+    padding-left: 0;
+    list-style: none;
+}
 
+#diplome > ul li
+{
+    text-align: left;
+}
 
 #debouche
 {
@@ -30,6 +39,13 @@ div
     grid-row-end: 2;
     grid-column-start: 3;
     grid-column-end: -1;
+}
+
+#plaquette img 
+{
+    width: 15em;
+    height: auto;
+    border: black solid;
 }
 
 /* Partie Responsive */
@@ -60,6 +76,11 @@ div
     {
         padding-left: 0;
         font-size: 1em;
+    }
+
+    .tableau_nav ul
+    {
+        margin-left: 0;
     }
 
     li

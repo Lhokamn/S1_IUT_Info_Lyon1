@@ -80,14 +80,11 @@ section > p
 	padding-left: 2rem;
 }
 
-ul
-{
-	list-style-type: none;
-}
-
 li
 {
-	text-align: center;
+	text-align: left;
+	padding-left: 1rem;
+
 }
 
 a
@@ -98,11 +95,9 @@ a
 h2, h3
 {
 	background-size: cover;
-	text-decoration: underline black;
 	text-align: center;
 	background-color: rgb(145, 112, 112);
 	color:rgb(255, 255, 255);
-	size-adjust: 2rem;
 }
 
 h4
@@ -140,6 +135,16 @@ h4
 	div > .tableau_nav > h2
 	{
 		background-color: rgb(12, 12, 141);
+	}
+
+	ul  
+	{
+		margin-left: 1rem;
+		list-style: none;
+	}
+	.tableau_nav > ul > li
+	{
+		text-align: center;
 	}
 }
 
